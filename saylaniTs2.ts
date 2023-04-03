@@ -1,10 +1,9 @@
+//TypeScript class hierarchy to model a vehicle rental system:
 abstract class Vehicle {
     private make: string;
     private model: string;
     private year: number;
     private rented: boolean;
-  
-    //TypeScript class hierarchy to model a vehicle rental system:
 
     constructor(make: string, model: string, year: number) {
       this.make = make;
